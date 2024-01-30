@@ -24,9 +24,10 @@ import Image from './fisrt image.jpg'
         kamo = 'ADD CHART '     />
 
         <Dad 
-          god = 'KENYA SHOE'
+          god = 'INDIAN SHOE'
           home = 'PRICE : $100'
           Image = {Image}
+
           btn = 'ADD CHART'
        
         />
