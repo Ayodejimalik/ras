@@ -1,36 +1,44 @@
-import logo from './logo.svg';
 import { Second } from './2ndcomponent';
-import image from './sec image.jpg';
-import { Dad } from './first';
-import Image from './fisrt image.jpg'
+import Emage from './first shoe.jpeg';
+import Amage from './air jordan.webp';
+import Image from './jordan.jpeg'
 
-  function App() {
+function App() {
+
+  const productdetail = [
+    {
+      third: 'ITALIAN SHOE',
+      title: '$300',
+      samuel: 'BUY',
+      logo: Amage,
+
+    },
+    {
+      Second:'NIGERIA SHOE',
+        common :'#100',
+        kamo :'BUY ',
+        image: Emage,
+    },
+    {
+      god :'INDIAN SHOE',
+      simon:'$100',
+      Image :Image,
+      btn :'BUY',
+    },
+
+  ]
   return (
     <div className="App">
-     
-      <Second 
-       third = 'PRICE: $250'
-       Second ='ITALIAN SHOE'
-       samuel = 'ADD CHART'
-        logo = {logo}
-       
+
+      <Second
+        {...productdetail[0]}
+        {...productdetail[1]}
+        {...productdetail[2]}
       />
-     
+
+
 
       
-     <Second Second ='NIGERIA SHOE'
-        image={image}
-        third = 'PRICE : 10naria'
-        kamo = 'ADD CHART '     />
-
-        <Dad 
-          god = 'INDIAN SHOE'
-          home = 'PRICE : $100'
-          Image = {Image}
-
-          btn = 'ADD CHART'
-       
-        />
     </div>
   );
 }

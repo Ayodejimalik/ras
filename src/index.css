@@ -27,3 +27,12 @@ code {
   margin: auto;
   border-radius: 5px 5px 5px 5px;
 }
+#sal{
+  margin-top: 10%;
+}
+#ram{
+  margin-top: 10%;
+}
+button{
+  width: 20%;
+}
