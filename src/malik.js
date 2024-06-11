@@ -4,23 +4,28 @@ import Amage from './air jordan.webp';
 
 
 const productdetail = [
-    {
-      third: 'ITALIAN SHOE',
-      title: 300,
-      logo: Amage,
+  {
+    id:1,
+    third: 'ITALIAN SHOE',
+    title: 300,
+    logo: Amage,
 
-    },
-    {
-      third: 'AMERICAN SHOE',
-      title: 200,
-      logo: Emage,
-    },
-    {
-      third: 'INDIAN SHOE',
-      title: 600,
-      logo: Image,
- 
-    },
+  },
+  {
+    id:2,
+    third: 'AMERICAN SHOE',
+    title: 200,
+    logo: Emage,
+  },
+  {
+    id:3,
+    third: 'INDIAN SHOE',
+    title: 600,
+    logo: Image,
 
-  ]
-  export default productdetail;
+  },
+
+
+]
+
+export default productdetail;

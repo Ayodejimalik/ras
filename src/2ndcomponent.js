@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './App.css';
+import './index.css';
 
 export function Second(props) {
   let [title, setTitle] = useState(props.title)
@@ -13,19 +13,23 @@ export function Second(props) {
 
   return (
     <>
+
+      <div className="App" id="col">
+
+
+
+        <h1>{props.third} </h1>
+        <img src={props.logo} width="70%" alt="" id="rel" /> <br></br>
+        <h1> PRICE:  {title}</h1>
+        <button onClick={changeTitle}>Get Discount</button><br></br><br></br>
+
+
+        
+
+      </div>
      
-    <div className="App" id="col">
-
-
-
-      <h1>{props.third} </h1>
-      <img src={props.logo} width="70%" alt="" id="rel" /> <br></br>
-      <h1> PRICE:  {title}</h1>
-      <button onClick={changeTitle}>Get Discount</button>
-
-    </div>
     </>
- 
+
 
   )
 }
